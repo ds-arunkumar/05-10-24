@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #fefcfb;
+}
+:root {
+  --primary-color: #fa7436;
+  --para-color: #666666;
+  --grey: #999999;
+  --primary-b: #222222;
+  --color-b-1: #444444;
+}
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 16px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--color-b-1);
+}
+.homeLink a {
+  display: flex;
+  gap: 16px;
+}
+
+.homeLink img {
+  width: 19px;
+  object-fit: contain;
+}
+nav {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.navLink {
+  display: flex;
+  gap: 16px;
+}
+
+.btnLink {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 10px;
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  border-radius: 5px;
+}
+
+.menuBtn {
+  background: none;
+  border: none;
+  color: var(--color-b-1);
+}
+
+main {
+  margin: 0 48px;
+}
+
+section {
+  height: calc(100vh - 100px);
+}
+.parentSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.leftSec {
+  padding: 0 20px;
+}
+.leftSec h1 {
+  font-size: 3.4vw;
+}
+
+.leftSec h1 span {
+  color: var(--primary-color);
+}
+.leftSec p {
+  color: var(--para-color);
+  margin-top: 20px;
+}
+.btnDisc {
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+.btnDisc:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.rightSec {
+  padding: 0 20px;
+  position: relative;
+}
+
+.rightSec img {
+  width: 100%;
+}
+
+.dropLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 20px;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.dropItem {
+  flex-shrink: 0;
+  min-width: 150px;
+}
+
+.dropItem h3 {
+  display: inline;
+}
+
+.dropItem i {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.btnExplore {
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.btnExplore:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background: #fff;
+}
